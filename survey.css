@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWNuMG5rc28wbzJ3bDdoanlueDQxYjV3a3NwYzhzeWZkcnI2cTFyMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kKaVWUDkNq1hcPnzKe/giphy.gif");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.45);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: auto;
+}
+
+.header h3 {
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #816464;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+p {
+    margin: 10px 0;
+    color: #000000;
+}

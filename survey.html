@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css">
+    <title>Survey Pre-Regist</title>
+    <link rel="icon" type="image/png" href="https://png.pngtree.com/png-clipart/20230917/original/pngtree-monkey-favicon-by-canva-vector-png-image_12282452.png">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Pendaftaran Pre-Regist COD MW3</h3>
+        </div>
+        <form id="pendaftaranForm">
+            <label for="nama">Nama</label><br>
+            <input type="text" placeholder="Nama anda" id="nama"><br><br>
+            <label for="tanggal">Tanggal Lahir</label><br>
+            <input type="date" id="tanggal" name="tanggal"><br><br>
+            <label for="angkatan">Pilih Negara</label><br>
+            <select id="angkatan" name="angkatan">
+                <option value="Indonesia">Indonesia</option>
+                <option value="Amerika">Amerika</option>
+                <option value="Jerman">Jerman</option>
+                <option value="Lainya">Lainya</option>
+            </select><br><br>
+            <p style="color: white;">Pembelian Episode CODMW3:</p>
+            <input type="radio" name="peminatan" id="Episode 1" value="Episode 1">
+            <label for="Episode 1">Episode 1</label><br>
+            <input type="radio" name="peminatan" id="Episode 2" value="Episode 2">
+            <label for="Episode 2">Episode 2</label><br>
+            <input type="radio" name="peminatan" id="Episode 3" value="Episode 3">
+            <label for="Episode 3">Episode 3</label><br>
+            <input type="radio" name="peminatan" id="Episode 4" value="Episode 4">
+            <label for="Episode 4">Episode 4</label><br><br>
+            <label for="nim">Kritik & Saran</label><br>
+            <input type="text" placeholder="Kritik & Saran" id="nim"><br><br>
+            <label for="alamat">Alamat</label><br>
+            <textarea placeholder="Tulis alamat mu disini" name="alamat" id="alamat" cols="30" rows="5"></textarea><br><br>
+            <button type="button" onclick="kirimData()">Kirim</button>
+        </form>
+    </div>
+
+        <!-- Background Music -->
+        <audio id="background-music" src="/assets/lagu.mp3" autoplay loop>
+            Your browser does not support the audio element.
+        </audio>
+
+    <script src="main.js"></script>
+</body>
+</html>
